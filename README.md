@@ -40,13 +40,13 @@ const magic = new Magic("pk_live_A84F2DB5369C3A06", {
 npm start
 
 ```
-##How it Works
+## How it Works
 The application uses the Magic SDK and the OAuth extension to enable user authentication and login. When the user enters their email address and submits the form, the handleLogin() function is called. This function sends a one-time password (OTP) to the user's email address using the loginWithEmailOTP() method of the Magic SDK. Once the OTP is entered, the user is authenticated and their metadata is retrieved using the getMetadata() method. The user's email address is displayed along with a logout button.
 
 When the user clicks the logout button, the handleLogout() function is called. This function logs the user out using the logout() method of the Magic SDK and updates the state variables accordingly.
 
-##Contributing
+## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-##License
+## License
 This project is licensed under the MIT License.
